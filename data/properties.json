@@ -1,0 +1,98 @@
+{
+  "magicbrix": [
+    {
+      "_id": "660a4cfc26359788e3806e9b",
+      "furnishing": "Semi-Furnished",
+      "location": "Athipalayam, Coimbatore",
+      "plot_area": "3049 sqft",
+      "rent": 16000,
+      "security_deposit": 60000,
+      "specification": "2 BHK",
+      "tenant_preferred": "Bachelors/Family"
+    },
+    {
+      "_id": "660a4cfc26359788e3806e9c",
+      "furnishing": "Fully-Furnished",
+      "location": "RS Puram, Coimbatore",
+      "plot_area": "1200 sqft",
+      "rent": 25000,
+      "security_deposit": 75000,
+      "specification": "3 BHK",
+      "tenant_preferred": "Family"
+    },
+    {
+      "_id": "660a4cfc26359788e3806e9d",
+      "furnishing": "Unfurnished",
+      "location": "Gandhipuram, Coimbatore",
+      "plot_area": "800 sqft",
+      "rent": 12000,
+      "security_deposit": 36000,
+      "specification": "1 BHK",
+      "tenant_preferred": "Bachelors"
+    }
+  ],
+  "99acres": [
+    {
+      "_id": "660a4cfc26359788e3806e9e",
+      "furnishing": "Semi-Furnished",
+      "location": "Peelamedu, Coimbatore",
+      "plot_area": "1500 sqft",
+      "rent": 18000,
+      "security_deposit": 54000,
+      "specification": "2 BHK",
+      "tenant_preferred": "Family"
+    },
+    {
+      "_id": "660a4cfc26359788e3806e9f",
+      "furnishing": "Fully-Furnished",
+      "location": "Saravanampatti, Coimbatore",
+      "plot_area": "2200 sqft",
+      "rent": 35000,
+      "security_deposit": 105000,
+      "specification": "4 BHK",
+      "tenant_preferred": "Family"
+    },
+    {
+      "_id": "660a4cfc26359788e3806ea0",
+      "furnishing": "Semi-Furnished",
+      "location": "Singanallur, Coimbatore",
+      "plot_area": "950 sqft",
+      "rent": 14000,
+      "security_deposit": 42000,
+      "specification": "2 BHK",
+      "tenant_preferred": "Bachelors/Family"
+    }
+  ],
+  "housing": [
+    {
+      "_id": "660a4cfc26359788e3806ea1",
+      "furnishing": "Unfurnished",
+      "location": "Vadavalli, Coimbatore",
+      "plot_area": "1800 sqft",
+      "rent": 20000,
+      "security_deposit": 60000,
+      "specification": "3 BHK",
+      "tenant_preferred": "Family"
+    },
+    {
+      "_id": "660a4cfc26359788e3806ea2",
+      "furnishing": "Semi-Furnished",
+      "location": "Hopes College, Coimbatore",
+      "plot_area": "600 sqft",
+      "rent": 8000,
+      "security_deposit": 24000,
+      "specification": "1 BHK",
+      "tenant_preferred": "Bachelors"
+    },
+    {
+      "_id": "660a4cfc26359788e3806ea3",
+      "furnishing": "Fully-Furnished",
+      "location": "Race Course, Coimbatore",
+      "plot_area": "2800 sqft",
+      "rent": 45000,
+      "security_deposit": 135000,
+      "specification": "4 BHK",
+      "tenant_preferred": "Family"
+    }
+  ]
+} 
