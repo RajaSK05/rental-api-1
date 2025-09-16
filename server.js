@@ -4,6 +4,7 @@ const path = require('path');
 
 // Import routes
 const propertyRoutes = require('./routes/properties');
+const { router: authRoutes } = require('./routes/auth');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -48,6 +49,7 @@ app.get('/health', (req, res) => {
 });
 
 // Routes
+app.use('/auth', authRoutes);
 app.use('/', propertyRoutes);
 
 // 404 handler
@@ -60,7 +62,10 @@ app.use('*', (req, res) => {
       'GET /magicbrix - Get MagicBrix properties',
       'GET /99acres - Get 99acres properties',
       'GET /housing - Get Housing.com properties',
-      'GET /health - Health check'
+      'GET /health - Health check',
+      'POST /auth/login - User login',
+      'GET /auth/verify - Verify JWT token',
+      'POST /properties - Create property (Admin only)'
     ]
   });
 });
@@ -83,6 +88,9 @@ app.listen(PORT, () => {
   console.log(`   GET http://localhost:${PORT}/99acres - 99acres properties`);
   console.log(`   GET http://localhost:${PORT}/housing - Housing.com properties`);
   console.log(`   GET http://localhost:${PORT}/health - Health check`);
+  console.log(`   POST http://localhost:${PORT}/auth/login - User login`);
+  console.log(`   GET http://localhost:${PORT}/auth/verify - Verify JWT token`);
+  console.log(`   POST http://localhost:${PORT}/properties - Create property (Admin only)`);
 });
 
 module.exports = app; 

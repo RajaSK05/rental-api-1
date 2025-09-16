@@ -1,0 +1,26 @@
+{
+  "admin@example.com": {
+    "email": "admin@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "admin",
+    "name": "Admin User"
+  },
+  "user@example.com": {
+    "email": "user@example.com", 
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "user",
+    "name": "Regular User"
+  },
+  "manager@example.com": {
+    "email": "manager@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi", 
+    "role": "admin",
+    "name": "Manager User"
+  },
+  "guest@example.com": {
+    "email": "guest@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "user", 
+    "name": "Guest User"
+  }
+} 

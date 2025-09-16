@@ -8,13 +8,20 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "keywords": ["rental", "property", "api", "real-estate"],
+  "keywords": [
+    "rental",
+    "property",
+    "api",
+    "real-estate"
+  ],
   "author": "",
   "license": "MIT"
-} 
+}
